@@ -14,7 +14,6 @@ public class UserController {
         public User add(){
            User user=new User();
            user.setName("张三");
-           System.out.print("345445");
            return user;
         }
 }
